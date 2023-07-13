@@ -1,0 +1,39 @@
+#card{
+    margin: 0 auto;
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: start;
+    }
+    .bgcolor{
+        background-color: #0C111B;
+    }
+    .mov__img{
+        width: 255px;
+        height: 164px;
+    }
+    .text__color{
+        color: white;
+    }
+    .mov__genre{
+        color: gray;
+        font-size: 12px;
+    }
+    .card__name{
+        font-size: 50px;
+        color: white;
+        margin-left: 60px;
+        margin-bottom: 58px;
+    }
+    .card__list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: start;
+    }
+    li{
+        margin: 10px;
+    }
+    
+}

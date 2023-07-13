@@ -1,0 +1,91 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0C111B;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    .list{
+        display: flex;
+        align-items: center;
+        padding-top: 25px;
+        padding-right: 30px;
+        padding-left: 30px;
+        height: 80px;
+        display: flex;
+        a{
+            text-decoration: none;
+            color: white;
+            margin-right: 30px;
+        }
+        .logo{
+            width: 54px;
+            height: 68px;
+            margin-top: -15px;
+        }
+        .nav__list{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-grow: 1;
+            .list__item--link:hover{
+                color: white;
+            }
+            .list__item--link:active{
+                color: white;
+            }
+            select{
+                font-size: 17px;
+                font-style: bold;
+                background-color: #0C111B;
+                color: white;
+                border: none;
+                cursor: pointer;
+                outline: none;
+                width: 150px;
+            }
+        }
+        .search__wrap{
+            border: none;
+            background: none;
+            outline: none;
+            color: white;
+            text-decoration: 1px solid white;
+        }
+            ::placeholder{
+                color: white;
+                opacity: 1;
+            }
+            .search__icon{
+                color: white;
+            }
+            .search__btn{
+                color: white;
+                border: none;
+            }
+            .hr{
+                margin-top: 5px;
+                color: white;
+                width: 194px;
+                height: 1px;
+                background-color: white;
+            }
+        
+        .subscribe__btn{
+            width: 91px;
+            height: 34px;
+            padding: 5px 18px 5px 10px;
+            border-radius: 26px;
+            border: 1px solid #FFF;
+            text-align: center;
+            white-space: nowrap;
+            margin-left: 20px;
+        }
+        .subscribe__btn:hover{
+            background: #1F80E0;
+
+        }
+    }
+    
+}

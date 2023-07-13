@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+body {
+  background-color: #0C111B;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #0C111B;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0C111B;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+header .list {
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+  padding-right: 30px;
+  padding-left: 30px;
+  height: 80px;
+  display: flex;
+}
+header .list a {
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+}
+header .list .logo {
+  width: 54px;
+  height: 68px;
+  margin-top: -15px;
+}
+header .list .nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+header .list .nav__list .list__item--link:hover {
+  color: white;
+}
+header .list .nav__list .list__item--link:active {
+  color: white;
+}
+header .list .nav__list select {
+  font-size: 17px;
+  font-style: bold;
+  background-color: #0C111B;
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  width: 150px;
+}
+header .list .search__wrap {
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+  -webkit-text-decoration: 1px solid white;
+          text-decoration: 1px solid white;
+}
+header .list ::-moz-placeholder {
+  color: white;
+  opacity: 1;
+}
+header .list ::placeholder {
+  color: white;
+  opacity: 1;
+}
+header .list .search__icon {
+  color: white;
+}
+header .list .search__btn {
+  color: white;
+  border: none;
+}
+header .list .hr {
+  margin-top: 5px;
+  color: white;
+  width: 194px;
+  height: 1px;
+  background-color: white;
+}
+header .list .subscribe__btn {
+  width: 91px;
+  height: 34px;
+  padding: 5px 18px 5px 10px;
+  border-radius: 26px;
+  border: 1px solid #FFF;
+  text-align: center;
+  white-space: nowrap;
+  margin-left: 20px;
+}
+header .list .subscribe__btn:hover {
+  background: #1F80E0;
+}
+
+#hero {
+  margin-bottom: 160px;
+}
+#hero .hero__img {
+  width: 100vw;
+  opacity: 0.8;
+}
+
+#card {
+  margin: 0 auto;
+}
+#card ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: start;
+}
+#card .bgcolor {
+  background-color: #0C111B;
+}
+#card .mov__img {
+  width: 255px;
+  height: 164px;
+}
+#card .text__color {
+  color: white;
+}
+#card .mov__genre {
+  color: gray;
+  font-size: 12px;
+}
+#card .card__name {
+  font-size: 50px;
+  color: white;
+  margin-left: 60px;
+  margin-bottom: 58px;
+}
+#card .card__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: start;
+}
+#card li {
+  margin: 10px;
+}
+
+.footer-container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer {
+  background-color: #0C111B;
+  padding: 80px 0;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-col {
+  width: 300px;
+  padding: 0 15px;
+}
+
+.footer-col h4 {
+  font-size: 24px;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 900;
+  position: relative;
+}
+
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: black;
+  height: 2px;
+  box-sizing: border-box;
+  width: 60px;
+}
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.footer-col ul li a {
+  font-size: 19px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 9px;
+}
+
+.footer-col .social_links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.footer-col .last_child {
+  font-size: 19px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */
