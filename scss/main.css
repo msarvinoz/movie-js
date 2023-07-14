@@ -20,6 +20,7 @@ a {
 
 body {
   background-color: #0C111B;
+  overflow-x: hidden;
 }
 
 html {
@@ -127,6 +128,8 @@ header .list .subscribe__btn:hover {
 #hero .hero__img {
   width: 100vw;
   opacity: 0.8;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #card {
